@@ -1,91 +1,91 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-    font-size: 62.5%;
-    font-family: Roboto;
+  font-size: 62.5%;
+  font-family: Roboto;
 }
 body {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: #ccefff;
-    counter-reset: game;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ccefff;
+  counter-reset: game;
 }
 .phone {
-    position: relative;
-    width: 320px;
-    height: 100%;
+  position: relative;
+  width: 320px;
+  height: 100%;
 }
 .layer {
-    position: absolute;
-    bottom: 0; 
-    border: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  border: 1px solid black;
 }
 .one {
-    left: 185px;
-    width: 80px;
-    height: 400px;
-    background-color: white;
+  left: 185px;
+  width: 80px;
+  height: 400px;
+  background-color: white;
 }
 .two {
-    left: 55px;
-    width: 80px;
-    height: 400px;
-    background-color: white;
+  left: 55px;
+  width: 80px;
+  height: 400px;
+  background-color: white;
 }
 .three {
-    left: 0;
-    right: 0;
-    width: 250px;
-    height: 340px;
-    margin: 0 auto;
-    background-color: rgb(80, 43, 12);
+  left: 0;
+  right: 0;
+  width: 250px;
+  height: 340px;
+  margin: 0 auto;
+  background-color: rgb(80, 43, 12);
 }
 .four {
-    left: 80px;
-    width: 80px;
-    height: 300px;
-    background-color: white;
+  left: 80px;
+  width: 80px;
+  height: 300px;
+  background-color: white;
 }
 .five {
-    left: 0px;
-    width: 200px;
-    height: 240px;
-    background-color: rgb(80, 43, 12);
+  left: 0px;
+  width: 200px;
+  height: 240px;
+  background-color: rgb(80, 43, 12);
 }
 .six {
-    left: 190px;
-    width: 80px;
-    height: 220px;
-    background-color: white;
+  left: 190px;
+  width: 80px;
+  height: 220px;
+  background-color: white;
 }
 .seven {
-    right: 0;
-    width: 180px;
-    height: 160px;
-    background-color: rgb(80, 43, 12);
+  right: 0;
+  width: 180px;
+  height: 160px;
+  background-color: rgb(80, 43, 12);
 }
 .eight {
-    left: 0;
-    right: 0;
-    width: 180px;
-    height: 50px;
-    margin: 0 auto;
-    background-color: green;
+  left: 0;
+  right: 0;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: green;
 }
 .nine {
-    left: 0;
-    width: 80px;
-    height: 70px;
-    background-color: white;
+  left: 0;
+  width: 80px;
+  height: 70px;
+  background-color: white;
 }
 .ten {
-    right: 0;
-    width: 80px;
-    height: 70px;
-    background-color: white;
+  right: 0;
+  width: 80px;
+  height: 70px;
+  background-color: white;
 }
